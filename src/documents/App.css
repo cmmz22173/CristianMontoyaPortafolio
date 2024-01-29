@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Box{
+  width: 150vh;
+  height: 50vh;
+  margin-top: -30vh;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+
+}
+
+.Container-style{
+  border-radius: 10px;
+  background:#121212;
+  height: 19dvh;
+  
+}
+
+.Container-style2{
+  border-radius: 10px;
+  background:linear-gradient(180deg, rgba(33,33,33,1) 27%, rgba(18,18,18,1) 75%);
+  height: 95dvh;
+  overflow: auto;
+  
+  
+}
+div::-webkit-scrollbar{
+  width: 12px;
+  border-radius: 5px;
+  background-color: linear-gradient(180deg, rgba(33,33,33,1) 27%, rgba(18,18,18,1) 75%);
+}
+
+div::-webkit-scrollbar-thumb{
+  width: 12px;
+  border-radius: 5px;
+  background-color: #0f0e0e;
+}
+
+
+
+
+.Font-title{
+  color: white;
+  font-family:'Sawarabi Gothic', sans-serif;
+  font-weight:bolder;
+
+}
+
+.Font-title2{
+  color: #999999;
+  font-family:'Sawarabi Gothic', sans-serif;
+ 
+  font-size:18px;
+
+}
+
+.Font-title3{
+  color: white;
+  font-family:'Sawarabi Gothic', sans-serif;
+  font-weight:bolder;
+  font-size:medium;
+
+}
+
+.Rounded-Button{
+  border-radius: 20%;
+  
+}
+
+.Card-content{
+   
+   background: linear-gradient(180deg, rgba(23,23,23,1) 30%, rgba(24, 24, 24, 0.904) 80%);;
+   max-width: 15dvh;
+   min-width: 15dvh;
+   padding:18px;
+   justify-content: center;
+
+}
+
+.Card-content:hover{
+  background: #4f4f4f;
+  
+  
+}
+
+
+.Card-image{
+  height: 15dvh;
+  width:15dvh;
+  border-radius:10px;
+  background-color: white;
+  
+  
+}
+
+.Play-button{
+  position:absolute;
+  margin-top: -58px !important;
+  float:right;
+  margin-right:7px !important;
+  color: transparent !important;
+  background-color:transparent !important;
+}
+
+.Card-content:hover .Play-button{
+  background-color:#1ed760 !important;
+  color: #0f0e0e !important;
+  box-shadow: 5px 5px 5px #6c6c6cb0
+}
+
+.Play-button:hover{
+  transform: scale(1.1);
+  
+}
+
+.Project-small-image{
+  width: 10%;
+  height: 100%;
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 10%;
+  margin-left: 5%;
+  background-color: white;
+}
+
+.Project-cards{
+  background-color: transparent !important;
+  border:0 !important;
+  box-shadow: none !important;
+  
+  
+}
+
+.Project-cards:hover{
+  background-color: #4f4f4f !important;
+}
+
+.Font-title4{
+  color: white;
+  font-family:'Sawarabi Gothic', sans-serif;
+  font-weight:bolder;
+  font-size:medium;
+  margin-top: -10px;
+
+}
+
+
+
