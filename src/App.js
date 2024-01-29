@@ -302,7 +302,7 @@ function App() {
 							/>	
 
 							<SkillCard
-							name="Comunicacion activa"
+							name="Comunicación activa"
 							img={comunicaLogo}
 							onClick={()=>{openModalSkill();setIdContentSkill(11)}}
 							/>	
