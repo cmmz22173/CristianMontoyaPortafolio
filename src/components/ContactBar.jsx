@@ -66,22 +66,22 @@ function ContactBar(){
     return(
         <>
         <Stack ml={3} mr={4} mt={3}  spacing={3} direction="row" justifyContent="space-between">
-			<Stack direction="row" spacing={2} >
+			<Stack direction="row" spacing={{xs:1,sm:2,md:2,lg:2,xl:2}} >
 				<IconButton sx={{background:"#272829"}} size='medium' href="https://www.linkedin.com/in/cristian-manuel-montoya-zelaya-8b4658216/">
-					<LinkedInIcon sx={{color:"white"}} fontSize='large'/>	
+					<LinkedInIcon sx={{color:"white"}} fontSize='medium'/>	
 				</IconButton >
 
 			    <IconButton sx={{background:"#272829"}} size='medium' href="https://github.com/cmmz22173">
-					<GitHubIcon sx={{color:"white"}} fontSize='large'/>
+					<GitHubIcon sx={{color:"white"}} fontSize='medium'/>
 				</IconButton>
 
                 <IconButton sx={{background:"#272829"}} size='medium' href="mailto:cmmz22173@gmail.com">
-					<GoogleIcon sx={{color:"white"}} fontSize='large'/>
+					<GoogleIcon sx={{color:"white"}} fontSize='medium'/>
 				</IconButton>
 			</Stack>
 
 			
-            <Stack direction="row" spacing={3} 
+            <Stack direction="row" spacing={{xs:1,sm:3,md:3,lg:3,xl:3}} 
                 
                 alignItems="center">
                 <IconButton 
@@ -101,7 +101,7 @@ function ContactBar(){
                 </IconButton> 
 
                 <IconButton onClick={()=>{openModal()}} sx={{background:"#272829"}} size='medium'>
-					<InfoRoundedIcon sx={{color:"white"}} fontSize='large'/>
+					<InfoRoundedIcon sx={{color:"white"}} fontSize='medium'/>
 				</IconButton>   
             </Stack>
 		</Stack>

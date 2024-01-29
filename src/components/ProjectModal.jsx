@@ -9,8 +9,8 @@ const content=[
     {
     title: 'Sistema RH UNAH',
     description: `El sistema RH UNAH fue un proyecto para los de recursos humanos de la UNAH, que les permitiera manejar una gran
-    variedad de modulos como la asistencia de docentes, constancias, empleados, y PAA entre otras cosas. No se llego a implementar por su gran complejidad y falta de recursos, sin embargo,
-    sirvio como una gran fuente de aprendizaje y experiencia para la asignacion de tareas, toma de requerimientos, distribucion de recursos, y el uso de metodologias agiles en general.`,
+    variedad de módulos como la asistencia de docentes, constancias, empleados, y PAA entre otras cosas. No se llegó a implementar por su gran complejidad y falta de recursos, sin embargo,
+    sirvió como una gran fuente de aprendizaje y experiencia para la asignación de tareas, toma de requerimientos, distribución de recursos, y el uso de metodologías ágiles en general.`,
     db:"MySQL (AWS)",
     caracter:"Grupal",              
     year:2022
@@ -18,9 +18,9 @@ const content=[
 
     {
     title: 'CleanJazz',
-    description: `CleanJazz fue un intento de replicar un SaaS y que tuviera la caracteristica de funcionar como una PWA para la clase de industria de software.
-    El proyecto consistio en crear un SaaS orientado a carwash, que le permitiera al cliente verificar sus fechas de lavado, ofertas, entre otras cosas. Ademas
-    debia contar con su respectivo backoffice para que la empresa que contrate el servicio pueda manejar sus recursos.`,
+    description: `CleanJazz fue un intento de replicar un SaaS y que tuviera la característica de funcionar como una PWA para la clase de industria de software.
+    El proyecto consistió en crear un SaaS orientado a carwash, que le permitiera al cliente verificar sus fechas de lavado, ofertas, entre otras cosas. Además
+    debía contar con su respectivo backoffice para que la empresa que contrate el servicio pueda manejar sus recursos.`,
     db:"MySQL (AWS)",
     caracter:"Grupal",  
     year: 2023,
@@ -29,8 +29,8 @@ const content=[
 
     {
         title: 'Portafolio',
-        description: `Inspirado en la UI de Spotify, porque suelo escuchar musica al realizar cualquier actividad para concentrarme. Decidi desarrollar mi portafolio para mostrar parte de mi experiencia 
-        relevante en el area de desarrollo. Tambien con el proposito de practicar y adquirir nuevos conocimientos mientras lo creaba.`,
+        description: `Inspirado en la UI de Spotify, porque suelo escuchar música al realizar cualquier actividad para concentrarme. Decidí desarrollar mi portafolio para mostrar parte de mi experiencia
+        relevante en el área de desarrollo. También con el propósito de practicar y adquirir nuevos conocimientos mientras lo creaba.`,
         db:"N/A",
         caracter:"Individual",  
         year:2024
@@ -46,8 +46,8 @@ const content=[
 
     {
       title: 'Sistema de Pescaderia',
-      description: `Mi primer proyecto grande creado para la clase de programación orientada a objetos,
-                   consistia en ser una especie de ERP para orientado a un empresa que se dedica al a venta de pescados.
+      description: `Mi primer proyecto grande, creado para la clase de programación orientada a objetos,
+      consistía en ser una especie de ERP para orientado a una empresa que se dedica a la venta de pescados.
                    
                    `,
       db:"MySQL (Local)",

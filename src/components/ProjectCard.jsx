@@ -23,7 +23,7 @@ function ProjectCard(props){
             <CardContent >
                 <Typography sx={{mb:"12px"}} className='Font-title4'>{props.name}</Typography>
                 <Stack direction={'row'} spacing={1}>
-                    <Chip size='small'  avatar={<Avatar src={props.tecno1} />} label={props.tecnoName1} sx={{background:"white"}} />
+                    <Chip  size='small'  avatar={<Avatar src={props.tecno1} />} label={props.tecnoName1} sx={{background:"white"}} />
                     <Chip size='small'  avatar={<Avatar src={props.tecno2} />} label={props.tecnoName2} sx={{background:"white"}} />
                     
                 </Stack>

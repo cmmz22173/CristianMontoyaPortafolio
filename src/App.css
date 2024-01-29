@@ -157,8 +157,8 @@ div::-webkit-scrollbar-thumb{
 .Project-small-image{
   width: 10%;
   height: 100%;
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 50px;
+  max-height: 50px;
   border-radius: 10%;
   margin-left: 5%;
   background-color: white;
@@ -168,8 +168,7 @@ div::-webkit-scrollbar-thumb{
   background-color: transparent !important;
   border:0 !important;
   box-shadow: none !important;
-  
-  
+ 
 }
 
 .Project-cards:hover{

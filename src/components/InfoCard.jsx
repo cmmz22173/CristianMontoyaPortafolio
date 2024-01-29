@@ -53,7 +53,7 @@ function InfoCard() {
       />
       
       <CardActions sx={{bgcolor:"#3D3B40"}}  disableSpacing>
-        <Typography ml={1} color={"white"} fontFamily={"Lato"} fontWeight={1000}>Sobre mi</Typography>
+        <Typography ml={1} color={"white"} fontFamily={"Lato"} fontWeight={1000}>Sobre mí</Typography>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
@@ -75,8 +75,7 @@ function InfoCard() {
         <CardContent>
           <Typography color={"#F2F1EB"} fontWeight={500} paragraph>Cristian Manuel Montoya Zelaya</Typography>
           <Typography color={"#F2F1EB"} fontWeight={500} paragraph>
-            Hola, es un placer tenerte por aqui explorando mi portafolio, espero sea de tu agrado. Me gusta crear cosas que las personas puedan apreciar y utilizar
-            ,es por eso que mi area favorita es el desarrollo.
+          Hola, es un placer tenerte por aquí explorando mi portafolio, espero sea de tu agrado. Me gusta crear cosas que las personas puedan apreciar y utilizar, es por eso que mi área favorita es el desarrollo.
           </Typography>
           <Stack direction="row"  alignItems="center"  mr={0.5}>
 
@@ -102,7 +101,7 @@ function InfoCard() {
             Idiomas:
           </Typography>
           <Chip size='small'  avatar={<Avatar src={spainLogo} />} label="Español" sx={{background:"white"}} />
-          <Chip size='small'  avatar={<Avatar src={inglesLogo} />} label="Ingles" sx={{background:"white"}} />
+          <Chip size='small'  avatar={<Avatar src={inglesLogo} />} label="Inglés" sx={{background:"white"}} />
           </Stack>
           
           <Typography color={"whitesmoke"} paragraph>

@@ -36,7 +36,7 @@ const content=[
 
     {
     title: 'Figma',
-    description: "Ultimamente utilizado para practicar y crear mockups.",
+    description: "Últimamente utilizado para practicar y crear mockups.",
     img1:""
     },
 
@@ -56,7 +56,7 @@ const content=[
     {
         title: 'Bases de Datos',
         description: "Conocimientos en bases de datos relacionales:",
-        description2: "Familiaridad para gestion de bases de datos en la nube:",
+        description2: "Familiaridad para gestión de bases de datos en la nube:",
         log1:"MySQL",
         log2:"SQLServer",
         log3:"Oracle DB",
@@ -75,7 +75,7 @@ const content=[
 
     {
         title: 'Desarrollo Web',
-        description: "Conocimientos basicos:",
+        description: "Conocimientos básicos:",
         description2: "Frameworks que he utilizado:",
         log1:"HTML5",
         log2:"CSS",
@@ -96,8 +96,8 @@ const content=[
 
     {
         title: 'UI / UX',
-        description: "Creacion de wireframes & mockups:",
-        description2: "Herramientas para seleccion de colores y fonts:",
+        description: "Creación de wireframes & mockups:",
+        description2: "Herramientas para selección de colores y fonts:",
         log1:"Draw.io",
         log2:"Figma",
         
@@ -114,7 +114,7 @@ const content=[
     ,
 
     {
-        title: 'Programacion en general',
+        title: 'Programación en general',
         description: "Familiaridad con lenguajes:",
         description2: "Familiaridad con entornos de desarrollo especializados:",
         log1:"Java",
@@ -165,7 +165,7 @@ const content=[
     },
 
     {
-        title: 'Comunicacion Activa',
+        title: 'Comunicación Activa',
         description: ` Me destaco por mi habilidad para escuchar activamente las opiniones
             y perspectivas de los demás. Esto me permite fomentar un diálogo abierto y constructivo,
             facilitando la resolución de problemas y la toma de decisiones informadas.

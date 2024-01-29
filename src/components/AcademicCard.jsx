@@ -39,7 +39,7 @@ function AcademicCard() {
         maxWidth: "100dvh",
         maxHeight: "70dvh",
         margin:"7%",
-        marginBottom:"100%",
+        marginBottom:"10%",
         overflow:"auto", 
         bgcolor:"#3D3B40"}}>
       
@@ -52,7 +52,7 @@ function AcademicCard() {
       />
       
       <CardActions sx={{bgcolor:"#3D3B40"}}  disableSpacing>
-        <Typography ml={1} color={"white"} fontFamily={"Lato"} fontWeight={1000}>Academico</Typography>
+        <Typography ml={1} color={"white"} fontFamily={"Lato"} fontWeight={1000}>Académico</Typography>
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}

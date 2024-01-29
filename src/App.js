@@ -178,7 +178,7 @@ function App() {
 
 								<ProjectCard 
 									image={pezLogo} 
-									name="Sistema de Pescaderia" 
+									name="Sistema de Pescadería" 
 									tecnoName1="Spring"
 									tecnoName2="Bootstrap"
 									tecno1={springLogo}
@@ -267,7 +267,7 @@ function App() {
 							/>	
 
 							<SkillCard
-							name="Programacion"
+							name="Programación"
 							img={prograLogo}
 							onClick={()=>{openModalSkill();setIdContentSkill(7)}}
 							/>	
@@ -311,7 +311,7 @@ function App() {
 						
 					</Grid>
 					
-					<Grid item className='Container-style2' sx={{overflow:"hidden"}} xs={1} sm={1} md={2.7} lg={2.75} xl={2.7} m={0.4}>
+					<Grid item className='Container-style2' sx={{overflow:"auto"}} xs={1} sm={1} md={2.7} lg={2.75} xl={2.7} m={0.4}>
 						<Stack
 						direction="column"
 						justifyContent="center"
