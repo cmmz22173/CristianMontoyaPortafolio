@@ -94,7 +94,7 @@ function App() {
 											mt={0.5} mb={2} fontSize={"12px"}>cmmz22173@gmail.com</Typography>
 											
 
-											<Chip  size="small" label="EXP laboral:0%" sx={{background:"#FF6868"}} />
+											<Chip  size="small" label="EXP laboral: 4 meses" sx={{background:"#FF6868"}} />
 										</Grid>
 
 										<Grid className='Container-style' xs={4} mt={0} >
@@ -234,6 +234,7 @@ function App() {
 							img={visualLogo}
 							onClick={()=>{openModalSkill();setIdContentSkill(3)}}
 							/>	
+					
 
 						</Stack>
 
