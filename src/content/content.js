@@ -58,31 +58,32 @@ import rh14 from "./../img/RHmonitoreo4.PNG"
 import rh15 from "./../img/RHPAA1.PNG"
 import rh16 from "./../img/RHPAA2.PNG"
 import portEx1 from "./../img/portafolioEx.png"
-
+import insUnah from "./../img/insUnah.png"
+import dsaImage from "./../img/dsaImage.jpg"
 
 
 export const content=[
     {
-    title: 'React',
-    description: "Utilizado para crear la interfaz de usuario de este portafolio.",
+    title: 'Angular',
+    description: "Utilizado para crear el frontend del sistema de inscripciones de la UNAH y de la DSA.",
     img1:""
     },
 
     {
-    title: 'Figma',
-    description: "Últimamente utilizado para practicar y crear mockups.",
+    title: 'Entity Framework',
+    description: "Utilizado para el manejo del backend del sistema de inscripciones de la UNAH y de la DSA.",
     img1:""
     },
 
     {
-        title: 'Material UI',
-        description: `Utilizado para crear los componentes del portafolio.`,
+        title: 'Visual Studio',
+        description: `Utilizado para el manejo del backend del sistema de inscripciones de la UNAH y de la DSA.`,
         img1:""
     },
 
     {
         title: 'Visual Studio Code',
-        description: `Herramienta preferida para desarrollo por su flexibilidad y adaptabilidad.`,
+        description: `Herramienta preferida para desarrollo en frontend por su flexibilidad y adaptabilidad.`,
         img1:""
     }
     ,
@@ -433,5 +434,19 @@ export const steps = [
       
     
     ],
+    [
+      {
+        description: 'insUnah',
+      imgPath:
+      insUnah,
+    }
+    ],
+    [
+      {
+        description: 'dsa',
+      imgPath:
+      dsaImage,
+    }
+    ]
     
     ];

@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: cristian-montoya-portafolio.vercel.app
+Token: 3d9616cfa3f2e59aacf300ae6f4f4284ef488b066d5f345a21bbd62d9701d283

@@ -54,7 +54,29 @@ const content=[
       db:"MySQL (Local)",
       caracter:"Individual",  
       year:2020
-    }
+    },
+    {
+      title: 'Inscrpciones UNAH',
+      description: `El sistema de Inscripción de la UNAH fue un proyecto realizado para mi práctica profesional 
+      en la Dirección de Sistema de Admisión (DSA) de la UNAH. Consiste en un sistema que permite a los estudiantes
+       inscribirse a las pruebas de aptitud académica (PAA) entre otras cosas. La UNAH había utilizado el mismo sistema por años
+        desde el 2006, hasta que decidieron cambiarlo por uno más moderno y eficiente. El sistema actual cuenta
+         con varias funcionalidades que facilitan la inscripción de los aspirantes. Actualmente en uso, con el enlace
+          "https://inscripciones.unah.edu.hn"`,
+      db:"SQL SERVER (Servidor on-premise)",
+      caracter:"Grupal (Elaborado junto con Oswar Crúz, colega y compañero de practica profesional supervisada PPS)",              
+      year:2024 
+      },
+
+      {
+        title: 'DSA UNAH',
+        description: `El sistema DSA UNAH es un sistema que ya estaba en uso pero con una version antigua de Angular, entonces lo que se realizó fue
+        una migracion a la version actual (Angular 17) con una nueva interfaz y funcionalidades. Los modulos son de caracter privado.
+        En uso a partir del 17/07/24, con el enlace "https://dsa.unah.edu.hn"`,
+        db:"SQL SERVER (Servidor on-premise)",
+        caracter:"Grupal (Elaborado junto con Oswar Crúz, colega y compañero de practica profesional supervisada PPS)",              
+        year:2024
+        }
 
 ];
 

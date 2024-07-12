@@ -41,6 +41,12 @@ import springLogo from "./assets/spring-logo.png"
 import bootsLogo from "./assets/bootstrap-logo.png"
 import pezLogo from "./assets/pez-logo.png"
 import AcademicCard from "./components/AcademicCard";
+import angularLogo from './assets/angular-logo.png'
+import entityLogo from './assets/entityFramework-logo.jpg'
+import VisualStudioLogo from './assets/VisualStudiologo.png'
+import unahwhitelogo from './assets/unahwhite-logo.png'
+
+
 function App() {
 
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -94,7 +100,7 @@ function App() {
 											mt={0.5} mb={2} fontSize={"12px"}>cmmz22173@gmail.com</Typography>
 											
 
-											<Chip  size="small" label="EXP laboral: 4 meses" sx={{background:"#FF6868"}} />
+											<Chip  size="small" label="EXP laboral: 6 meses" sx={{background:"#E5D283"}} />
 										</Grid>
 
 										<Grid className='Container-style' xs={4} mt={0} >
@@ -129,6 +135,30 @@ function App() {
 									</Stack>
 		
 								<ProjectModal open={isModalOpen} onClose={closeModal} id={idContent}/>
+								<ProjectCard
+									
+									image={unahwhitelogo}
+									name='Inscripciones UNAH'
+									tecnoName1="Angular"
+									tecnoName2="Entity Framework"
+									
+									tecno1={angularLogo}
+									tecno2={entityLogo}
+									
+									onClick={()=>{openModal();setIdContent(5)}}
+								/>
+								<ProjectCard
+									
+									image={unahwhitelogo}
+									name='DSA UNAH (Migración)'
+									tecnoName1="Angular"
+									tecnoName2="Entity Framework"
+									
+									tecno1={angularLogo}
+									tecno2={entityLogo}
+									
+									onClick={()=>{openModal();setIdContent(6)}}
+								/>
 								<ProjectCard2
 									
 									image={RHUNAH}
@@ -212,20 +242,20 @@ function App() {
 							
 
 							<SkillCard
-							name="React"
-							img={reactLogo}
+							name="Angular"
+							img={angularLogo}
 							onClick={()=>{openModalSkill();setIdContentSkill(0)}}
 							/>	
 
 							<SkillCard
-							name="Figma"
-							img={figmaLogo}
+							name="EF Core"
+							img={entityLogo}
 							onClick={()=>{openModalSkill();setIdContentSkill(1)}}
 							/>	
 
 							<SkillCard
-							name="MUI"
-							img={materialLogo}
+							name="Visual Studio"
+							img={VisualStudioLogo}
 							onClick={()=>{openModalSkill();setIdContentSkill(2)}}
 							/>
 
