@@ -100,7 +100,7 @@ function App() {
 											mt={0.5} mb={2} fontSize={"12px"}>cmmz22173@gmail.com</Typography>
 											
 
-											<Chip  size="small" label="EXP laboral: 6 meses" sx={{background:"#E5D283"}} />
+											<Chip  size="small" label="Estado: Trabajando" sx={{background:"#E5D283"}} />
 										</Grid>
 
 										<Grid className='Container-style' xs={4} mt={0} >
