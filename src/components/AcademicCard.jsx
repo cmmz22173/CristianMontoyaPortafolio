@@ -97,7 +97,7 @@ function AcademicCard() {
             Estado:
           </Typography>
             <Typography color={"whitesmoke"} paragraph>
-            <Chip size='small'   label="Por finalizar práctica" sx={{background:"#E5D283"}} />
+            <Chip size='small'   label="Graduado" sx={{background:"#1DB954"}} />
             </Typography>
           </Stack>
           
